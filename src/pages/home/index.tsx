@@ -8,7 +8,7 @@ export default function App() {
             <h2>Hello, I am </h2>
             <h1>Marco Aurélio Sumpani Mota</h1>
             <h3>Dev BackEnd</h3>
-            <button><a href="/sobre">Discover more about me</a></button>
+            <button><a href="/about">Discover more about me</a></button>
         </div>
         <Footer />
     </>)
