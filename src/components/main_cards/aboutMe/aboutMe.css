@@ -1,0 +1,25 @@
+#about_me_card>ul{
+    display: flex;
+    gap: 20px;     
+    justify-content: end; 
+    align-items: start;
+    margin: 0;        
+    padding: 0;
+}
+
+#text_about_me{
+    margin: 5%;
+}
+
+#text_about_me>p{
+    font-size: 1.2em;
+}
+
+#text_about_me>p>strong{
+    font-size: 1.2em;
+    font-style:italic;
+}
+
+#text_about_me>p>span{
+    font-style:oblique;
+}  

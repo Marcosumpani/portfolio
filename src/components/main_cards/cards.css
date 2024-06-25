@@ -1,0 +1,7 @@
+.card{
+    display: grid;
+    background-color: black;
+    color: rgb(238, 238, 238);
+    border-radius: 15px;
+    padding: 20px;
+}

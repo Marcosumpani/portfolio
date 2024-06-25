@@ -1,15 +1,16 @@
-import React from 'react';
 import './home.css'
-import Card from '../../components/cardHome';
+import AboutMe from '../../components/main_cards/aboutMe';
+import Process from '../../components/main_cards/process';
+import Tools from '../../components/main_cards/tools';
 
-function App() {
+function Home() {
     return (<>
         <div className="card_container">
-            <Card>  
-                <p>Card</p>
-            </Card>
+            <AboutMe/>
+            <Process/>   
+            <Tools/>
         </div>
-    </>);
+    </>)
 }
 
-export default App;
+export default Home;

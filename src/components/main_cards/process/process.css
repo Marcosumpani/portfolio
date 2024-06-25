@@ -1,0 +1,15 @@
+#process_text{
+    font-size: 0.9em;
+}
+
+#process_concepts{
+    margin: 3vh;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    text-align: center;
+}
+
+#process_card>p{
+    margin: 0;
+}

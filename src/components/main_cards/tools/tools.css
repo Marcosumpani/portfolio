@@ -1,0 +1,30 @@
+#tools_card {
+    grid-column: 1/3;
+    grid-row: 2;
+}
+
+#tools_card p {
+    margin: 0;
+    height: 5vh;
+}
+
+#tools_card p span {
+    font-style: unset;
+}
+
+.tools_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    /* gap: 50px; */
+    padding: 10px;
+}
+
+.tools_container>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
