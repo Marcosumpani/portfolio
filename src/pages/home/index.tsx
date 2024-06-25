@@ -1,18 +1,15 @@
-import Menu from '../../components/menu/index.tsx'
-import Footer from '../../components/footer/index.tsx'
+import React from 'react';
 import './home.css'
-export default function App() {
+import Card from '../../components/cardHome';
+
+function App() {
     return (<>
-        <Menu />
-        <div className='main-container'>
-            <div className='text-me'>
-                <h2>Hello, I am </h2>
-                <h1>Marco Aurélio Sumpani Mota</h1>
-                <h3>Dev BackEnd</h3>
-                <a href="/about"><button className='home-button'>Discover more about me</button></a>
-            </div>
-        <img src="/myPicture.png" alt="me" width="40%"/>
+        <div className="card_container">
+            <Card>  
+                <p>Card</p>
+            </Card>
         </div>
-        <Footer />
-    </>)
+    </>);
 }
+
+export default App;
