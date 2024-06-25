@@ -9,9 +9,9 @@ export default function App() {
                 <h2>Hello, I am </h2>
                 <h1>Marco Aurélio Sumpani Mota</h1>
                 <h3>Dev BackEnd</h3>
-                <button className='home-button'><a href="/about">Discover more about me</a></button>
+                <a href="/about"><button className='home-button'>Discover more about me</button></a>
             </div>
-            <img src="" alt="me" />
+        <img src="/myPicture.png" alt="me" width="40%"/>
         </div>
         <Footer />
     </>)
